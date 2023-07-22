@@ -19,7 +19,7 @@ public class relogioDigital extends JFrame {
         setTitle("Relogio Digital");
         setSize(500,200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setResizable(false);
+        setResizable(true);
 
         // CRIAR PAINEL PARA AS LABELS DE TEMPO E DATA:
         JPanel painel = new JPanel();
@@ -67,7 +67,7 @@ public class relogioDigital extends JFrame {
         String tempo = formatadorTempo.format(calendario.getTime());
 
         // PEGAR A DATA ATUAL E FORMATAR:
-        SimpleDateFormat formatadorData = new SimpleDateFormat("EEE, MMM dd, yyyy");
+        SimpleDateFormat formatadorData = new SimpleDateFormat("EEE, dd MMM, yyyy");
         String data = formatadorData.format(calendario.getTime());
 
         // ATUALIZAR O TEMPO E DATA:
