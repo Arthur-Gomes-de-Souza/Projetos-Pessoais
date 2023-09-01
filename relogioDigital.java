@@ -31,7 +31,7 @@ public class relogioDigital extends JFrame {
         labelTempo.setFont(new Font("Arial", Font.PLAIN, 60));
         labelTempo.setHorizontalAlignment(SwingConstants.CENTER);
         labelTempo.setVerticalAlignment(SwingConstants.CENTER);
-        labelTempo.setForeground(Color.RED);
+        labelTempo.setForeground(Color.BLUE);
 
         // CRIAR LABEL PARA O DISPLAY DA DATA:
         labelData = new JLabel();
